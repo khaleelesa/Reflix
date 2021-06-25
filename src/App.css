@@ -1,0 +1,32 @@
+#main-links > a {
+  margin: 10px;
+  color: whitesmoke;
+}
+
+* {
+  text-decoration: none;
+  font-family: "Cinzel Decorative";
+}
+
+a {
+  cursor: pointer;
+  color: black;
+}
+
+body {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+#title {
+  position: absolute;
+  right: 2%;
+  color: aliceblue;
+}

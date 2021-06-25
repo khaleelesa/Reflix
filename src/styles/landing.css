@@ -1,0 +1,16 @@
+#Landing-container {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 30px;
+}
+
+.user {
+  height: 100px;
+  text-align: center;
+  padding-top: 50px;
+}
+.userName {
+  color: rgb(26, 3, 3);
+  margin-top: 100px;
+}

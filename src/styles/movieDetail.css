@@ -1,0 +1,13 @@
+.movieDetail {
+  color: whitesmoke;
+  position: absolute;
+  left: 45%;
+}
+.movieImg {
+  width: 400px;
+  height: 400px;
+  margin-left: 33%;
+}
+.desc {
+  color: whitesmoke;
+}

@@ -1,0 +1,30 @@
+.Movies {
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 30px;
+}
+h3 {
+  color: whitesmoke;
+  margin-left: 10px;
+}
+#u-input {
+  position: absolute;
+  top: 10%;
+  left: 45%;
+}
+
+.budget {
+  position: absolute;
+  left: 90%;
+  color: whitesmoke;
+}
+
+.user {
+  margin-left: 30px;
+  color: whitesmoke;
+}
+
+.catalog {
+  margin-top: 20px;
+}
