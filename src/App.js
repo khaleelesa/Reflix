@@ -95,6 +95,7 @@ class App extends Component {
           <div id="home-background"></div>
           <div id="main-links">
             <Link to="/">Home</Link>
+            <Link to="/catalog">Catalog</Link>
             <span id="title">Reflix</span>
           </div>
           <Route
@@ -116,6 +117,19 @@ class App extends Component {
             )}
           />
 
+          <Route
+            path="/catalog"
+            exact
+            render={({ match }) => (
+              <Catalog
+                match={match}
+                budget={this.state.budget}
+                moives={this.state.movies}
+                rentAmovie={this.rentAmovie}
+                unrentAmovie={this.unrentAmovie}
+              />
+            )}
+          />
           <Route
             path="/movies/:id"
             exact
